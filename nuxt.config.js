@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  serverMiddleware: ["~/middleware/response-header.js"],
   head: {
     title: 'vercel-cache',
     htmlAttrs: {

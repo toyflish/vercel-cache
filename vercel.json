@@ -6,16 +6,5 @@
       "use": "@nuxtjs/vercel-builder",
       "config": {}
     }
-  ],
-  "headers": [
-    {
-      "source": "/",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=60"
-        }
-      ]
-    }
   ]
 }
